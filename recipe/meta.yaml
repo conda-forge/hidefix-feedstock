@@ -36,7 +36,7 @@ requirements:
   run:
     - python
     - numpy
-    - xarray
+    - xarray>=2023
     - netCDF4
 
 test:
