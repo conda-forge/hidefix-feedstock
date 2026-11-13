@@ -1,13 +1,13 @@
 {% set name = "hidefix" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hidefix-{{ version }}.tar.gz
-  sha256: a049519ee6650f8a656aee9a9af1f140dd15bdf85bd314e3fa1855c099c211c2
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/hidefix-{{ version }}.tar.gz
+  sha256: 1ae4ac8fec27039f60d68a786c33d81420ef7bdfb1098e5a2072e4808d30c92b
 
 build:
   number: 0
