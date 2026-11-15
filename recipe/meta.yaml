@@ -45,7 +45,7 @@ test:
   requires:
     - pip
     - pytest
-    - pytest-benchmark <5.3  # https://github.com/conda-forge/pytest-benchmark-feedstock/issues/34
+    - pytest-benchmark
     - dask
   imports:
     - hidefix
